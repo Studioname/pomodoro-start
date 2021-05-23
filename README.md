@@ -13,4 +13,4 @@ on strings in Python, so to avoid using a for loop to determine how many check m
     counter = 0
     label = Label(text = check_mark * counter, xpos = 400,...)
     
-Which kind of felt like cheating but was simple and effective!
+Which kind of felt like cheating but worked quite nicely!
