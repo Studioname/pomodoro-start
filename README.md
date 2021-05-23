@@ -8,14 +8,9 @@ really have a problem understanding them. Following the advice of another user I
 which would occur if the 'start' button was pressed while the timer was already running. The bug was that i'd get a new countdown for each time the start button was pressed - 
 this was dealt with rather handily by just adding a flag as to whether the timer was running, which reset when the 'reset' button was pushed. At first I thought I'd simply
 run the reset function before starting the timer, but that threw up a whole host of errors so just stuck with the simple solution. I had heard before that multiply works
-on strings in Python, so to avoid using a for loop to determine how many check marks I needed, along with the requisite vertex calculations 
-      
-      counter = 0
-      label = Label(text = check_mark, xpos = 400 + (20 * checkmarks -1),...)
-
-I just set the string to multiply itself by a counter:
+on strings in Python, so to avoid using a for loop to determine how many check marks I needed, along with the requisite vertex calculations, I just set the string to multiply itself by a counter:
 
     counter = 0
     label = Label(text = check_mark * counter, xpos = 400,...)
     
-Which kind of felt like cheating but was a lot simpler in the long run =)
+Which kind of felt like cheating but was simple and effective!
